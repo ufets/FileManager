@@ -1,9 +1,0 @@
-# ninja log v5
-8	330	6899447835874215	build.ninja	f0ff31d7ca982089
-4	1920	6899055724061496	CMakeFiles/lab4.dir/main.cpp.obj	7bbddc9bb29de21
-43	1801	6899047349362465	CMakeFiles/lab4.dir/User.cpp.obj	560b631d4460cfe6
-1921	2079	6899055725586518	lab4.exe	4a85bd341a1aab39
-61	366	6899048389193706	CMakeFiles/lab4.dir/DirDescriptor.cpp.obj	833f324e777e0f4e
-10	1382	6899055718426561	CMakeFiles/lab4.dir/launch.cpp.obj	476242faabe2316d
-23	1587	6899055720361615	CMakeFiles/lab4.dir/Dialog.cpp.obj	a8845e5ecf46148f
-13	1769	6899055722541506	CMakeFiles/lab4.dir/SystemDescriptor.cpp.obj	8988c31f11fcb5f5
