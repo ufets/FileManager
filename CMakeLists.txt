@@ -1,10 +1,9 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.21)
 project(lab4)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(lab4 main.cpp )
-        #launch.cpp Dialog.cpp SystemDescriptor.cpp User.cpp DirDescriptor.cpp)
+add_executable(lab4 main.cpp DActions.cpp launch.cpp Dialog.cpp SystemDescriptor.cpp User.cpp DirDescriptor.cpp)
 
 include_directories(c:/SFML/include)
 
@@ -20,3 +19,4 @@ target_link_libraries(lab4 ${SFML_LIBRARIES} ${SFML_DEPENDENCIES})
 
 # Copy dlls to build
 
+add_subdirectory(GTEST)

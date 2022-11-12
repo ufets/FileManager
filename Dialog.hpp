@@ -41,8 +41,22 @@ enum ERRORS
     }
     bool check_string(const string& str);
     User& authorization(SystemDescriptor& sys);
-    User& registration(SystemDescriptor sys);
+    User& registration(SystemDescriptor& sys);
     void input_string(string& str, const string& msg);
+    unsigned int Dialog(const char* msgs[], int num_msgs);
+    void Menu(SystemDescriptor& sys, User& user);
 
 }
+namespace R{
+    enum RESULTS{
+        ///exit from dialog
+        EXIT,
+        ///back to menu
+        RESUME,
+        ///back to menu
+        INPUT_ERROR
+    };
+}
+
+
 #endif

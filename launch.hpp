@@ -7,5 +7,8 @@
 #pragma once
 
 void start();
-void work(User& user);
+void work(SystemDescriptor& sys, User& user);
+void change_user(SystemDescriptor& sys,User& you);
+void MainMenu(SystemDescriptor& sys, User& user);
+
 #endif

@@ -18,7 +18,7 @@ private:
     string hash(string password) const;
 
 public:
-    SystemDescriptor(); //
+    SystemDescriptor(string pwd); //
     //SystemDescriptor(FILE* info);
     int get_num_of_us() const; //
     User& get_user(int i); //
@@ -28,7 +28,7 @@ public:
     int find_user(int id) const; //
     int find_user(string nickname) const; //
 
-    void add_user(int id, string nickname, ROLE role); //
+    void add_user(int id, string nickname, ROLE role, string password); //
     void add_hash(string password); //
 
     void delete_user(int id); //

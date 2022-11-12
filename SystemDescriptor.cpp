@@ -1,19 +1,17 @@
 #include "SystemDescriptor.hpp"
-#include "Dialog.hpp"
 
 using namespace std;
-SystemDescriptor::SystemDescriptor()
+SystemDescriptor::SystemDescriptor(string pwd)
 {
     User admin(0, "admin", ADMIN);
     users.push_back(admin);
-    string pwd;
-    D::input_string(pwd, "Enter admin 's password:");
     hashes.push_back(hash(pwd));
 }
 
 string SystemDescriptor::hash(string password) const {
     return password;
 }
+
 void SystemDescriptor::check_i(int i) const
 {
     if (i < 0 || i >= users.size())
@@ -60,7 +58,7 @@ int SystemDescriptor::find_user(string nickname) const
 }
 
 
-void SystemDescriptor::add_user(int id, string nickname, ROLE role)
+void SystemDescriptor::add_user(int id, string nickname, ROLE role, string password)
 {
     if (find_user(id) != -1 || find_user(nickname) != -1)
     {
@@ -69,6 +67,7 @@ void SystemDescriptor::add_user(int id, string nickname, ROLE role)
     }
     User user(id, nickname, role);
     users.push_back(user);
+    add_hash(password);
 }
 
 void SystemDescriptor::add_hash(string password)
@@ -101,7 +100,9 @@ void SystemDescriptor::delete_user(int id) {
         throw std::invalid_argument("SystemDescriptor :: delete_user(int id) :: There is not user with this id");
     }
     vector<User>::iterator it;
+    it = users.begin();
     users.erase(it + i);
+    delete_hash(i);
 }
 
 void SystemDescriptor::delete_user(string nickname) {
@@ -137,7 +138,20 @@ void SystemDescriptor::change_role(int i, ROLE role) {
 void SystemDescriptor::print_users() {
     for(int i = 0; i < users.size(); i++)
     {
-        cout<<"USER["<<i<<"]\t"<<users[i].get_nickname()<<"("<<users[i].get_role()<<")\t"<<hashes[i]<<endl;
+        cout<<"USER["<<i<<"]\t"<<users[i].get_nickname();
+        if(users[i].get_role() == READER)
+        {
+            cout<<"(READER)";
+        }
+        else if(users[i].get_role() == USER)
+        {
+            cout<<"(USER)";
+        }
+        else if(users[i].get_role() == ADMIN)
+        {
+            cout<<"(ADMIN)";
+        }
+        cout<<"\t"<<hashes[i]<<endl;
     }
 
 }
