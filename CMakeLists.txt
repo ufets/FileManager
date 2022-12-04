@@ -2,8 +2,18 @@ cmake_minimum_required(VERSION 3.21)
 project(lab4)
 
 set(CMAKE_CXX_STANDARD 20)
-
-add_executable(lab4 main.cpp DActions.cpp launch.cpp Dialog.cpp SystemDescriptor.cpp User.cpp DirDescriptor.cpp)
+set(SRC main.cpp
+        Dialog/DActions.cpp
+        Launcher/launch.cpp
+        Dialog/Dialog.cpp
+        SystemSource/SystemDescriptor.cpp
+        SystemSource/User.cpp
+        Descriptors/AccessTable.cpp
+        Descriptors/Descriptor.cpp
+        Descriptors/FileDescriptor.cpp
+        #MyMap/mymap.cpp MyMap/mymap.h
+        )
+add_executable(lab4 ${SRC})
 
 include_directories(c:/SFML/include)
 
@@ -19,4 +29,4 @@ target_link_libraries(lab4 ${SFML_LIBRARIES} ${SFML_DEPENDENCIES})
 
 # Copy dlls to build
 
-add_subdirectory(GTEST)
+add_subdirectory(_GTEST)

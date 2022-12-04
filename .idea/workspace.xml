@@ -17,21 +17,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a7f1615-d274-42e0-8f6e-e69de9c8dcda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DActions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DActions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GTEST/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GTEST/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.$Диаграмма.drawio.bkp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.$Диаграмма.drawio.dtmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/AccessTable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/AccessTable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/Descriptor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/Descriptor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/DirDescriptor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/DirDescriptor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/FileDescriptor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Descriptors/FileDescriptor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dialog/DActions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dialog/DActions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dialog/Dialog.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dialog/Dialog.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Launcher/launch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Launcher/launch.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyMap/mymap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyMap/mymap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemSource/SystemDescriptor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemSource/SystemDescriptor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemSource/User.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemSource/User.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/FileDesctiptor_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/googletest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/test_access_table.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/test_descriptor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/test_map.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_GTEST/test_system_descriptor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dialog.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dialog.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SystemDescriptor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SystemDescriptor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SystemDescriptor.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/SystemDescriptor.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/launch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/launch.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DActions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DActions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Descriptor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dialog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dialog.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirDescriptor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirDescriptor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileDescriptor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileDescriptor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SystemDescriptor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SystemDescriptor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intermediary.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intermediary.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Диаграмма.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Диаграмма.drawio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +80,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,50 +111,59 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testFILEMANAGER" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
-  <component name="RunManager" selected="CMake Application.lab4">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Comp\Desktop\labsOOP\lab4\_GTEST" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.MAP.begin">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirDescriptor.constructor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="DirDescriptor" TEST_METHOD="constructor" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirDescriptor.create_subfile_in_subdir" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="DirDescriptor" TEST_METHOD="create_subfile_in_subdir" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Google_Tests_run" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SYSTEM_D.change_password_and_role" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="SYSTEM_D" TEST_METHOD="change_password_and_role" TEST_MODE="SUITE_TEST">
+    <configuration name="MAP.begin" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="MAP" TEST_METHOD="begin" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SYSTEM_D.delete_user" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="SYSTEM_D" TEST_METHOD="delete_user" TEST_MODE="SUITE_TEST">
+    <configuration name="MAP.constructor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="MAP" TEST_METHOD="constructor" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SYSTEM_D.delete_user_id" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="SYSTEM_D" TEST_METHOD="delete_user_id" TEST_MODE="SUITE_TEST">
+    <configuration name="MAP.insert" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="MAP" TEST_METHOD="insert" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SYSTEM_D.delete_user_nick" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="SYSTEM_D" TEST_METHOD="delete_user_nick" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SYSTEM_D.print" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="SYSTEM_D" TEST_METHOD="print" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="gmock" CONFIG_NAME="Debug">
@@ -133,31 +186,25 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="lab4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="lab4">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="CMake Application.lab4" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="Google Test.Google_Tests_run" />
-      <item itemvalue="Google Test.SYSTEM_D.delete_user" />
-      <item itemvalue="Google Test.SYSTEM_D.delete_user_id" />
-      <item itemvalue="Google Test.SYSTEM_D.delete_user_nick" />
-      <item itemvalue="Google Test.SYSTEM_D.change_password_and_role" />
-      <item itemvalue="Google Test.SYSTEM_D.print" />
+      <item itemvalue="Google Test.DirDescriptor.constructor" />
+      <item itemvalue="Google Test.DirDescriptor.create_subfile_in_subdir" />
+      <item itemvalue="Google Test.MAP.constructor" />
+      <item itemvalue="Google Test.MAP.insert" />
+      <item itemvalue="Google Test.MAP.begin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.SYSTEM_D.print" />
-        <item itemvalue="Google Test.SYSTEM_D.change_password_and_role" />
-        <item itemvalue="Google Test.SYSTEM_D.delete_user_nick" />
-        <item itemvalue="Google Test.SYSTEM_D.delete_user_id" />
-        <item itemvalue="Google Test.SYSTEM_D.delete_user" />
+        <item itemvalue="Google Test.MAP.begin" />
+        <item itemvalue="Google Test.MAP.insert" />
+        <item itemvalue="Google Test.MAP.constructor" />
+        <item itemvalue="Google Test.DirDescriptor.constructor" />
+        <item itemvalue="Google Test.DirDescriptor.create_subfile_in_subdir" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +217,55 @@
       <option name="presentableId" value="Default" />
       <updated>1668243397325</updated>
       <workItem from="1668243399924" duration="823000" />
-      <workItem from="1668244308669" duration="10228000" />
+      <workItem from="1668244308669" duration="12270000" />
+      <workItem from="1668275751912" duration="91000" />
+      <workItem from="1668276451191" duration="731000" />
+      <workItem from="1668327102338" duration="70000" />
+      <workItem from="1668327186800" duration="818000" />
+      <workItem from="1668352497177" duration="703000" />
+      <workItem from="1668364983623" duration="134000" />
+      <workItem from="1668365167004" duration="6579000" />
+      <workItem from="1668371813185" duration="5041000" />
+      <workItem from="1668456889854" duration="3247000" />
+      <workItem from="1668460166842" duration="4377000" />
+      <workItem from="1668543919237" duration="603000" />
+      <workItem from="1668683647907" duration="2000" />
+      <workItem from="1668706466488" duration="2000" />
+      <workItem from="1668708580623" duration="2611000" />
+      <workItem from="1668712818622" duration="4502000" />
+      <workItem from="1668722765926" duration="3319000" />
+      <workItem from="1668749500682" duration="2487000" />
+      <workItem from="1668752657316" duration="1387000" />
+      <workItem from="1668793712652" duration="6000" />
+      <workItem from="1669148892214" duration="2347000" />
+      <workItem from="1669155582459" duration="1297000" />
+      <workItem from="1669187217422" duration="1090000" />
+      <workItem from="1669188477662" duration="1938000" />
+      <workItem from="1669202672093" duration="753000" />
+      <workItem from="1669203440364" duration="1290000" />
+      <workItem from="1669204764755" duration="1176000" />
+      <workItem from="1669207588761" duration="7019000" />
+      <workItem from="1669231943455" duration="618000" />
+      <workItem from="1669235708034" duration="3490000" />
+      <workItem from="1669274163876" duration="1416000" />
+      <workItem from="1669275606793" duration="6000" />
+      <workItem from="1669458241659" duration="1309000" />
+      <workItem from="1669483060993" duration="2000" />
+      <workItem from="1669487321462" duration="1726000" />
+      <workItem from="1669489096293" duration="6161000" />
+      <workItem from="1669499571297" duration="70000" />
+      <workItem from="1669585205674" duration="4000" />
+      <workItem from="1669736541722" duration="169000" />
+      <workItem from="1669826027637" duration="16322000" />
+      <workItem from="1669877648521" duration="2713000" />
+      <workItem from="1669922796052" duration="12859000" />
+      <workItem from="1669959530896" duration="1588000" />
+      <workItem from="1670010309991" duration="801000" />
+      <workItem from="1670054566843" duration="8966000" />
+      <workItem from="1670087110669" duration="16121000" />
+      <workItem from="1670140684617" duration="2192000" />
+      <workItem from="1670142910587" duration="194000" />
+      <workItem from="1670143184990" duration="6147000" />
     </task>
     <servers />
   </component>
@@ -190,5 +285,134 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/GTEST/googletest" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_dirdescriptor.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>4</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>5</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>24</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>23</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/_GTEST/test_map.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,14 +1,51 @@
 #include "SystemDescriptor.hpp"
 
+
 using namespace std;
-SystemDescriptor::SystemDescriptor(string pwd)
+SystemDescriptor::SystemDescriptor(string admin_pwd)
 {
     User admin(0, "admin", ADMIN);
+    //root = DirDescriptor();
     users.push_back(admin);
-    hashes.push_back(hash(pwd));
+    hashes.push_back(hash(admin_pwd));
 }
 
-string SystemDescriptor::hash(string password) const {
+SystemDescriptor::SystemDescriptor(fsys::path& system_data) {
+    fstream fs((system_data/"hashes.txt").string(), fstream::in);
+    string str;
+    int i = 0;
+    while(!fs.eof())
+    {
+        getline(fs, str);
+        if (!str.empty())
+            hashes.push_back(str);
+        i++;
+        str = "";
+    }
+    fs.close();
+    fstream fs1((system_data/"nicknames.txt").string(), fstream::in);
+    fstream fs2((system_data/"other.txt").string(), fstream::in);
+    i = 0;
+    int id;
+    ROLE role;
+    User useless;
+    while(fs2.read((char*)&id, sizeof(int)))
+    {
+        useless.set_id(id);
+        getline(fs1, str);
+        useless.set_nickname(str);
+        fs2.read((char*)&role, sizeof(ROLE));
+        useless.set_role(role);
+        users.push_back(useless);
+        useless.~User();
+        i++;
+        str.~string();
+    }
+    fs1.close();
+    fs2.close();
+}
+
+string SystemDescriptor::hash(string& password) {
     return password;
 }
 
@@ -30,7 +67,7 @@ User& SystemDescriptor::get_user(int i)
 
 int SystemDescriptor::get_num_of_us() const
 {
-    return users.size();
+    return (int)users.size();
 }
 
 int SystemDescriptor::find_user(int id) const
@@ -45,7 +82,7 @@ int SystemDescriptor::find_user(int id) const
     return -1;
 }
 
-int SystemDescriptor::find_user(string nickname) const
+int SystemDescriptor::find_user(string& nickname) const
 {
     for(int i = 0; i < users.size(); i++)
     {
@@ -70,12 +107,12 @@ void SystemDescriptor::add_user(int id, string nickname, ROLE role, string passw
     add_hash(password);
 }
 
-void SystemDescriptor::add_hash(string password)
+void SystemDescriptor::add_hash(string& password)
 {
     hashes.push_back(hash(password));
 }
 
-bool SystemDescriptor::check_nickname(int i, string nickname) const
+bool SystemDescriptor::check_nickname(int i, string& nickname) const
 {
     check_i(i);
     if (nickname == users[i].get_nickname())
@@ -83,7 +120,7 @@ bool SystemDescriptor::check_nickname(int i, string nickname) const
     return false;
 }
 
-bool SystemDescriptor::check_hash(int i, string password) const
+bool SystemDescriptor::check_hash(int i, string& password) const
 {
     check_i(i);
     if(hash(password) == hashes[i])
@@ -124,7 +161,7 @@ void SystemDescriptor::delete_hash(int i)
     hashes.erase(it+i);
 }
 
-void SystemDescriptor::change_password(int i, string password) {
+void SystemDescriptor::change_password(int i, string& password) {
     vector<string>::iterator it;
     it = hashes.begin();
     hashes.erase(it+i);
@@ -155,4 +192,15 @@ void SystemDescriptor::print_users() {
     }
 
 }
+
+string SystemDescriptor::get_hash(int i) const {
+    check_i(i);
+    return hashes[i];
+}
+
+
+
+
+
+
 

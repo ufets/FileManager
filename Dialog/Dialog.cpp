@@ -7,7 +7,7 @@ using namespace std;
 ///проверяем строку на корректность
 bool D::check_string(const string& str)
 {
-    char exc[]{'\"', ' ', '#', '%', '(', ')', '/', ',', ':', '.', ';', '&', '+','-', '<', '>', '=', '*', '\\', '^', '`', '[', ']'};
+    char exc[]{'\"', ' ', '#', '%', '(', ')', '/', ',', ':', ';', '&', '+','-', '<', '>', '=', '*', '\\', '^', '`', '[', ']'};
     for(char i : str)
     {
         if(33 > i || i>122)
@@ -96,7 +96,12 @@ User& D::registration(SystemDescriptor& sys)
             }
         }
         if (flag != 0) continue;
-        int id = rand();
+        int id = rand(); //generation unique id
+        while(sys.find_user(id) != -1)
+        {
+            id = rand();
+        }
+
         cout<<"your id = "<<id;
         sys.add_user(id, nickname, USER, password);
         return sys.get_user(sys.get_num_of_us() - 1);
