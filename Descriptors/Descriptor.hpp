@@ -5,6 +5,7 @@
 #include "../SystemSource/User.hpp"
 #include <fstream>
 
+#pragma once
 using namespace std;
 
 class Descriptor {

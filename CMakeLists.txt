@@ -11,7 +11,7 @@ set(SRC main.cpp
         Descriptors/AccessTable.cpp
         Descriptors/Descriptor.cpp
         Descriptors/FileDescriptor.cpp
-        #MyMap/mymap.cpp MyMap/mymap.h
+        MyMap/mymap.cpp
         )
 add_executable(lab4 ${SRC})
 
