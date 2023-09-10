@@ -5,8 +5,6 @@
 
 #pragma once
 
-
-
 template <typename Tkey, typename Tvalue>
 struct Elem{
 public:
